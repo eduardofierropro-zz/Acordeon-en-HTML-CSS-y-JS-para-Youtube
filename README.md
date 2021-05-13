@@ -21,7 +21,7 @@ Es un código programado en directo para entretenimiento.
 
 ## Autor ✒️
 **Eduardo Fierro** - *Documentación y trabajo inicial*
-* [Youtube](https://youtube.com/EduardoFierroPro)
+* [Youtube](https://youtube.com/EduardoFierroPro?sub_confirmation=1)
 * [Twitch](https://twitch.tv/eduardofierropro)
 * [TikTok](https://www.tiktok.com/@eduardofierro.pro?)
 * [Github](https://github.com/eduardofierropro)
