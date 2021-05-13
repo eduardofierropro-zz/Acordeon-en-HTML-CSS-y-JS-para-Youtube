@@ -1,0 +1,29 @@
+@import 'reset/variables' , 'reset/mixins' , 'reset/reset' ,'reset/keyframes';
+
+
+.acordeon{
+    width:90%;
+    max-width: 120em;
+    padding:2em;
+    @include neo( 1, 1em , 1em );
+}
+.acordeon .bloque{
+    margin: 0 0 1em;
+    padding:1em;
+    @include neo( 1, 1em , 1em );
+}
+.acordeon .h2{
+    margin: 0 0 1em;
+    padding:1em;
+    @include neo( 1, 1em , 1em );
+}
+.acordeon .contenido{
+    height: 0;
+    padding:0em;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.acordeon .bloque.activo .contenido{
+    height: 4em;
+}
+
