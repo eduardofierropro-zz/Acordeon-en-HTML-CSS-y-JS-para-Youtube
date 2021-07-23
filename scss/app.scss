@@ -3,27 +3,31 @@
 
 .acordeon{
     width:90%;
-    max-width: 120em;
-    padding:2em;
-    @include neo( 1, 1em , 1em );
+    max-width: 40rem;
+    padding:2rem;
+    @include neo( 1, 1rem , .4rem );
 }
 .acordeon .bloque{
-    margin: 0 0 1em;
-    padding:1em;
-    @include neo( 1, 1em , 1em );
+    margin: 0 0 1rem;
+    padding:1rem;
+    @include neo( 1, 1rem , .4rem );
 }
 .acordeon .h2{
-    margin: 0 0 1em;
-    padding:1em;
-    @include neo( 1, 1em , 1em );
+    margin: 0 0 1rem;
+    padding:1rem;
+    @include neo( 1, 1rem , .4rem );
+    cursor: pointer;
+    &:hover{
+        @include neo( 2, 1rem , .4rem );
+    }
 }
 .acordeon .contenido{
     height: 0;
-    padding:0em;
+    padding:0rem;
     overflow: hidden;
     transition: all .5s ease;
 }
 .acordeon .bloque.activo .contenido{
-    height: 4em;
+    height: 4rem;
 }
 
