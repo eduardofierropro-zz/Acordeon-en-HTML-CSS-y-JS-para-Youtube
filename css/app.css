@@ -137,7 +137,7 @@ body {
 
 .acordeon {
   width: 90%;
-  max-width: 40rem;
+  max-width: 20rem;
   padding: 2rem;
   color: var(--negro);
   -webkit-transition: all 0.4s ease;
